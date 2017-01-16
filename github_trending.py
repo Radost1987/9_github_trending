@@ -27,13 +27,13 @@ if __name__ == '__main__':
     except requests.RequestException:
         print('Something is wrong. Try again')
     else:
-        print('20 trending repositories of GitHub for last week\n')
+        print('20 trending repositories of GitHub for the last week\n')
         for repositories in trending_repositories:
             print(
-                'Repositories name: {}\n'
-                'Repositories url: {}\n'
-                'Repositories open issues: {}\n'
-                'Repositories stargazers count: {}\n'.format(repositories['name'],
+                "Repository's name: {}\n"
+                "Repository's url: {}\n"
+                "Repository's open issues: {}\n"
+                "Repository's stargazers count: {}\n".format(repositories['name'],
                                                              repositories['html_url'],
                                                              repositories['open_issues'],
                                                              repositories['stargazers_count']
