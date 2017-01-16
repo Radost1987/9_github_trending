@@ -2,7 +2,7 @@
 
 ## About script
 
-This code displays 20 the most popular repositories from https://github.com for last week.   
+This code displays 20 the most popular repositories from https://github.com for the last week.   
 
 ## Requirements
 
@@ -23,7 +23,7 @@ requests==2.11.1
 
 ### Example
 
-After the script run in the terminal you will see list of popular repositories. This list contains repositories name, url address, number of open issues and stars.
+After the script run in the terminal you will see list of popular repositories. This list contains repository’s name, url address, number of open issues and stars.
 
 ```python
 20 trending repositories of GitHub for last week
