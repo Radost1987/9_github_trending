@@ -27,7 +27,7 @@ if __name__ == '__main__':
     except requests.RequestException:
         print('Something is wrong. Try again')
     else:
-        print('20 trending repositiries of GitHub for last week\n')
+        print('20 trending repositories of GitHub for last week\n')
         for repositories in trending_repositories:
             print(
                 'Repositories name: {}\n'
